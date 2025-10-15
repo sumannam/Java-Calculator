@@ -7,14 +7,9 @@ public class Main {
         calc_add.add();
         calc_add.displayResult("+");
 
-        Calculator calc_sub = new Calculator();
-
-        Calculator calc_mul = new Calculator();
-        calc_mul.setNumbers(5, 3);
+        AdvancedCalculator calc_mul = new AdvancedCalculator();
+        calc_mul.setNumbers(10, 2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
-
-        Calculator calc_div = new Calculator();
-        calc_div.setNumbers(10, 2);
     }
 }

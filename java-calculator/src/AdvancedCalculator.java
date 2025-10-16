@@ -1,8 +1,9 @@
-// 계산기 v2.0 관련 클래스
-// https://github.com/sumannam/Java-Calculator/issues/1
 public class AdvancedCalculator extends Calculator {
-    // 계산기 v2.0 곱하기 기능 개발 완료
-    // https://github.com/sumannam/Java-Calculator/issues/2
+    // 계산기 v2.0 개발
+    // 이슈 : https://github.com/sumannam/Java-Calculator/issues/5
+
+    // 곱셈 연산자로 두 수 곱하기 완료
+    // https://github.com/sumannam/Java-Calculator/issues/6
     @Override
     public int multiply()
     {
@@ -10,8 +11,8 @@ public class AdvancedCalculator extends Calculator {
         return result;
     }
 
-    // 계산기 v2.0 나누기 기능 개발 완료
-    // https://github.com/sumannam/Java-Calculator/issues/3
+    // 나누셈 연산자로 두 수 나누기 완료
+    // https://github.com/sumannam/Java-Calculator/issues/7
     @Override
     public int divide()
     {

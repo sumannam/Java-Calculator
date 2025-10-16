@@ -15,7 +15,6 @@ class AdvancedCalculatorTest {
     @Test
     void multiply() {
         assertEquals(27, advancedCalc.multiply());
-        assertEquals(3, advancedCalc.divide());
     }
 
     @Test
